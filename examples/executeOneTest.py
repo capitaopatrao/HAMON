@@ -7,7 +7,7 @@ main_path = os.path.abspath(examples_path + '/../')
 m_o = '/multi_objective/'
 s_o = '/single_objective/'
 
-i = 3
+i = 1
 
 if i < 3:
     n_o = s_o
