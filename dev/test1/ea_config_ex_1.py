@@ -5,8 +5,8 @@
 # function or Shekel’s foxholes using Genetic Algorithms.
 
 EA_type = 'GA'
-pop_size = 80
-n_gen = 200
+pop_size = 100
+n_gen = 200000
 mut_rate = -1
 n_gen_var = 15
 cross_rate = 0.7

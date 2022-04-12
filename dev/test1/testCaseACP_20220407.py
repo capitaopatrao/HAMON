@@ -11,4 +11,4 @@ n_o = '/single_objective/'
 
 
 command = 'cd %s;python %s -ea %s -c %s' % (main_path,hamonPath, eaConfigPath, optiConfigPath)
-#os.system(command)
+os.system(command)

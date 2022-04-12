@@ -9,7 +9,7 @@
 # [1] - Molga, M., & Smutnicki, C. Test functions for optimization needs (2005)
 # [2] - https://www.sfu.ca/~ssurjano/dejong5.html
 
-print('Minimizing the De Jong’s fifth function. The minimum value is around 0.998004\n')
+print('Minimizing Bukin function n.6. The minimum value is around 0 at (-10,1)\n')
 
 var_range = [[-15, -5], [-3, 3]]
 project_name = 'bukin6'
@@ -22,6 +22,7 @@ plotting = True
 
 
 def getFunctionsAnalytical():
+    #Bukin function n.6
     def of(x1, x2):
         y  = (100 * (abs(x2 - 0.01 * x1**2))**0.5) + (0.01 * abs(x1 + 10))
         return y
